@@ -81,7 +81,7 @@
   <script >
   const form=document.querySelector('form')
 form.addEventListener('submit',function(e){
-    e.preventDefault();
+    e.preventDefault(); //to avoid loading web after submitting
   const h=parseInt(document.querySelector('#height').value)
   const w=parseInt(document.querySelector('#weight').value)
   const res=document.querySelector('#results')
